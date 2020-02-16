@@ -8,8 +8,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=udp2raw-tunnel
-PKG_VERSION:=20190716.test.0
-PKG_RELEASE:=2
+PKG_VERSION:=20190716.0
+PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/wangyu-/udp2raw-tunnel.git
