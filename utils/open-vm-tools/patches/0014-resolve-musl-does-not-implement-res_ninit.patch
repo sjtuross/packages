@@ -1,6 +1,6 @@
-diff -urNp open-vm-tools-11.0.5-15389592.ORG/lib/nicInfo/nicInfoPosix.c open-vm-tools-11.0.5-15389592/lib/nicInfo/nicInfoPosix.c
---- open-vm-tools-11.0.5-15389592.ORG/lib/nicInfo/nicInfoPosix.c	2020-01-20 15:12:46.004034669 +0000
-+++ open-vm-tools-11.0.5-15389592/lib/nicInfo/nicInfoPosix.c	2020-01-20 15:40:44.370425791 +0000
+diff -urNp a/lib/nicInfo/nicInfoPosix.c b/lib/nicInfo/nicInfoPosix.c
+--- a/lib/nicInfo/nicInfoPosix.c
++++ b/lib/nicInfo/nicInfoPosix.c
 @@ -65,6 +65,9 @@
  #include <netinet/in.h>
  #include <arpa/nameser.h>
@@ -11,9 +11,9 @@ diff -urNp open-vm-tools-11.0.5-15389592.ORG/lib/nicInfo/nicInfoPosix.c open-vm-
  
  #ifdef __linux__
  #   include <net/if.h>
-diff -urNp open-vm-tools-11.0.5-15389592.ORG/lib/nicInfo/resolv_compat.h open-vm-tools-11.0.5-15389592/lib/nicInfo/resolv_compat.h
---- open-vm-tools-11.0.5-15389592.ORG/lib/nicInfo/resolv_compat.h	1970-01-01 00:00:00.000000000 +0000
-+++ open-vm-tools-11.0.5-15389592/lib/nicInfo/resolv_compat.h	2020-01-20 15:39:09.397871457 +0000
+diff -urNp a/lib/nicInfo/resolv_compat.h b/lib/nicInfo/resolv_compat.h
+--- a/lib/nicInfo/resolv_compat.h
++++ b/lib/nicInfo/resolv_compat.h
 @@ -0,0 +1,29 @@
 +#if !defined(__GLIBC__)
 +/***************************************************************************

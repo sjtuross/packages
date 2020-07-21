@@ -142,4 +142,3 @@ config rule 'https'
 config rule 'default_rule'
 	option dest_ip '0.0.0.0/0'
 	option use_policy 'balanced'
-
